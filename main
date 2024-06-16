@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Визитка</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 50px;
+        }
+        .card {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            display: inline-block;
+            max-width: 400px;
+            width: 100%;
+        }
+        .card img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        .card h1 {
+            font-size: 24px;
+            margin: 20px 0 10px;
+        }
+        .card p {
+            color: #666;
+            margin: 10px 0;
+        }
+        .social-links a {
+            margin: 0 10px;
+            color: #333;
+            text-decoration: none;
+            font-size: 24px;
+        }
+        .social-links a:hover {
+            color: #0073b1; /* Цвет при наведении */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <img src="ваша-фотография.jpg" alt="Ваше имя">
+        <h1>Ваше имя</h1>
+        <p>Ваша профессия или род деятельности</p>
+        <div class="social-links">
+            <a href="https://facebook.com/ваш-профиль" target="_blank">Facebook</a>
+            <a href="https://twitter.com/ваш-профиль" target="_blank">Twitter</a>
+            <a href="https://linkedin.com/in/ваш-профиль" target="_blank">LinkedIn</a>
+            <a href="https://instagram.com/ваш-профиль" target="_blank">Instagram</a>
+        </div>
+    </div>
+
+</body>
+</html>
